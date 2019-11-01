@@ -1,6 +1,6 @@
 const got = require('got');
-const url = 'http://google.com';
-const invertal = 1000;
+const url = 'https://google.com/';
+const interval = 1000;
 
 function ping() {
 
@@ -9,7 +9,7 @@ function ping() {
     }).catch(error => {
       console.log('failure on ping...');
     });
-    
-}
 
-setInterval(ping, invertal);
+}
+setInterval(ping, interval);
+console.log('pinging every ' + interval + 'ms');
