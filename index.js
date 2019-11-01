@@ -1,6 +1,6 @@
 const got = require('got');
-const url = 'https://google.com/';
-const interval = 1000;
+const url = 'https://eriscmsqa.z19.web.core.windows.net/';
+const interval = 30000;
 
 function ping() {
 
@@ -12,4 +12,4 @@ function ping() {
 
 }
 setInterval(ping, interval);
-console.log('pinging every ' + interval + 'ms');
+console.log('pinging ' + url + ' every ' + interval + 'ms');
