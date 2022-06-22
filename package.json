@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/kylemorton5770/pingman5000#readme",
   "dependencies": {
-    "got": "^7.1.0"
+    "got": "^11.8.5"
   }
 }
